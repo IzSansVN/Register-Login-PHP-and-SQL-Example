@@ -19,7 +19,6 @@ if (isset($_POST['username']) and isset($_POST['password']) and isset($_POST['em
 	if($result) {
 		echo "Create Account Successfully : $username <br />";
 	}
-	$conn->close();
 }
 ?>
 <!doctype html>
